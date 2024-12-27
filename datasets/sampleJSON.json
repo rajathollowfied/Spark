@@ -1,0 +1,65 @@
+{
+  "order_id": "ORD12345",
+  "customer": {
+    "customer_id": "CUST98765",
+    "name": {
+      "first": "John",
+      "last": "Doe"
+    },
+    "contact_details": {
+      "email": "john.doe@example.com",
+      "phone": "+1234567890"
+    },
+    "address": {
+      "billing_address": {
+        "street": "123 Elm Street",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62704",
+        "country": "USA"
+      },
+      "shipping_address": {
+        "street": "456 Oak Avenue",
+        "city": "Springfield",
+        "state": "IL",
+        "zip": "62705",
+        "country": "USA"
+      }
+    }
+  },
+  "order_date": "2024-12-27T14:35:00Z",
+  "items": [
+    {
+      "item_id": "ITEM001",
+      "product_name": "Wireless Mouse",
+      "quantity": 2,
+      "price_per_unit": 25.99,
+      "categories": ["Electronics", "Accessories"]
+    },
+    {
+      "item_id": "ITEM002",
+      "product_name": "Gaming Keyboard",
+      "quantity": 1,
+      "price_per_unit": 89.99,
+      "categories": ["Electronics", "Keyboards"]
+    }
+  ],
+  "payment": {
+    "payment_id": "PAY123456",
+    "method": "Credit Card",
+    "amount": 141.97,
+    "currency": "USD",
+    "status": "Paid",
+    "transaction_details": {
+      "transaction_id": "TX123ABC",
+      "gateway": "Stripe",
+      "date": "2024-12-27T14:36:00Z"
+    }
+  },
+  "shipping": {
+    "carrier": "FedEx",
+    "tracking_number": "TRACK123456789",
+    "status": "In Transit",
+    "estimated_delivery": "2024-12-30T18:00:00Z"
+  }
+}

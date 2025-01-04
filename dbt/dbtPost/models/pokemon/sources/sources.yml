@@ -1,0 +1,8 @@
+version: 1
+
+sources:
+  - name: dbt
+    schema: dbt
+    tables:
+      - name: pokemon
+        descripton: "pokemon table from dbt schema in Postgres."

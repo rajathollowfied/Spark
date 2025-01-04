@@ -1,0 +1,92 @@
+[0m16:08:05.571855 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A71EFE2E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A721763010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A721763580>]}
+
+
+============================== 16:08:05.576854 | 0dfb3be8-f291-4494-aea4-2edab6fc472c ==============================
+[0m16:08:05.576854 [info ] [MainThread]: Running with dbt=1.8.6
+[0m16:08:05.577855 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\rajat\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt list', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:08:05.579354 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path D:\Learning\GIT\workspace\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m16:08:05.580355 [debug] [MainThread]: Command `dbt list` failed at 16:08:05.580355 after 0.13 seconds
+[0m16:08:05.581360 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A71EFE2E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A721761630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A721762E90>]}
+[0m16:08:05.582366 [debug] [MainThread]: Flushing usage events
+[0m16:09:27.586532 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019FD65D2E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019FD8DA6B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019FD8DA69B0>]}
+
+
+============================== 16:09:27.591065 | 4fa7d66a-1523-4e6f-8ade-b6cdbeb40094 ==============================
+[0m16:09:27.591065 [info ] [MainThread]: Running with dbt=1.8.6
+[0m16:09:27.592065 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\rajat\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init dbtPost', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:09:27.638810 [debug] [MainThread]: Starter project path: C:\Users\rajat\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m16:09:27.706390 [info ] [MainThread]: 
+Your new dbt project "dbtPost" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:09:27.707389 [info ] [MainThread]: Setting up your profile.
+[0m16:11:16.442673 [info ] [MainThread]: Profile dbtPost written to C:\Users\rajat\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m16:11:16.445179 [debug] [MainThread]: Command `dbt init` succeeded at 16:11:16.444679 after 109.05 seconds
+[0m16:11:16.446181 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019FD65D2E00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019FD8DA6B00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019FD8DA6D10>]}
+[0m16:11:16.447186 [debug] [MainThread]: Flushing usage events
+[0m16:14:12.718817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA6342E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA7178EB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA9302800>]}
+
+
+============================== 16:14:12.723317 | a5376296-537c-4eb6-a17c-6760d9fdc09a ==============================
+[0m16:14:12.723317 [info ] [MainThread]: Running with dbt=1.8.6
+[0m16:14:12.724818 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\rajat\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m16:14:12.749894 [info ] [MainThread]: dbt version: 1.8.6
+[0m16:14:12.750918 [info ] [MainThread]: python version: 3.10.10
+[0m16:14:12.751418 [info ] [MainThread]: python path: C:\Users\rajat\AppData\Local\Programs\Python\Python310\python.exe
+[0m16:14:12.751418 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m16:14:12.817055 [info ] [MainThread]: Using profiles dir at C:\Users\rajat\.dbt
+[0m16:14:12.818551 [info ] [MainThread]: Using profiles.yml file at C:\Users\rajat\.dbt\profiles.yml
+[0m16:14:12.819050 [info ] [MainThread]: Using dbt_project.yml file at D:\Learning\GIT\workspace\dbt\dbt_project.yml
+[0m16:14:12.819551 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:14:12.822070 [debug] [MainThread]: Command `dbt debug` failed at 16:14:12.821564 after 0.19 seconds
+[0m16:14:12.822572 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA6342E30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA92C26E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023BA934EC50>]}
+[0m16:14:12.822572 [debug] [MainThread]: Flushing usage events
+[0m16:14:31.301277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E12DE2DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E155DDCF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E155DE1A0>]}
+
+
+============================== 16:14:31.306285 | 491aec1d-d555-40b8-9da2-999a37145932 ==============================
+[0m16:14:31.306285 [info ] [MainThread]: Running with dbt=1.8.6
+[0m16:14:31.307301 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\rajat\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:14:31.329584 [info ] [MainThread]: dbt version: 1.8.6
+[0m16:14:31.331094 [info ] [MainThread]: python version: 3.10.10
+[0m16:14:31.331604 [info ] [MainThread]: python path: C:\Users\rajat\AppData\Local\Programs\Python\Python310\python.exe
+[0m16:14:31.332608 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m16:14:31.396263 [info ] [MainThread]: Using profiles dir at C:\Users\rajat\.dbt
+[0m16:14:31.397263 [info ] [MainThread]: Using profiles.yml file at C:\Users\rajat\.dbt\profiles.yml
+[0m16:14:31.398265 [info ] [MainThread]: Using dbt_project.yml file at D:\Learning\GIT\workspace\dbt\dbt_project.yml
+[0m16:14:31.398768 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m16:14:31.400766 [debug] [MainThread]: Command `dbt debug` failed at 16:14:31.400265 after 0.18 seconds
+[0m16:14:31.401267 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E12DE2DA0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E15561D80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E15561780>]}
+[0m16:14:31.401767 [debug] [MainThread]: Flushing usage events
+[0m16:17:43.188008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002999A492DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002999D479DB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002999D478F10>]}
+
+
+============================== 16:17:43.192040 | 15ff9800-3a8a-4542-bb96-cdba861158b2 ==============================
+[0m16:17:43.192040 [info ] [MainThread]: Running with dbt=1.8.6
+[0m16:17:43.193553 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\rajat\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug --config-dir', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:17:43.215988 [info ] [MainThread]: To view your profiles.yml file, run:
+
+start C:\Users\rajat\.dbt
+[0m16:17:43.217494 [debug] [MainThread]: Command `dbt debug` succeeded at 16:17:43.217494 after 0.11 seconds
+[0m16:17:43.218501 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002999A492DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002999D478F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002999D478F10>]}
+[0m16:17:43.218999 [debug] [MainThread]: Flushing usage events

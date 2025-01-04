@@ -22,7 +22,7 @@ def dbConnection():
     }
     
     url = f"jdbc:postgresql://{properties['host']}:{properties['port']}/{properties['name']}"
-    
+    logging.info(f"JDBC URI - {url}")
     return url, properties
     
 

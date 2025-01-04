@@ -1,0 +1,5 @@
+2025-01-05 00:50:43,194 - INFO - Connection working!
+2025-01-05 00:53:04,215 - INFO - Connection working!
+2025-01-05 00:53:04,300 - INFO - Write not working! requirement failed: The driver could not open a JDBC connection. Check the URL: jdbc:postgres://localhost:5432/devLearning
+2025-01-05 01:00:41,848 - INFO - Connection built!
+2025-01-05 01:00:42,743 - INFO - Data written!

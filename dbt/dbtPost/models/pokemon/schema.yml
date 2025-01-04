@@ -1,0 +1,5 @@
+version: 2
+
+models:
+  - name: createTables.sql
+    description: "Create tables as defined in the model."
